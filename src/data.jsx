@@ -5,7 +5,7 @@ export const personalDetails = {
   title: "Data Science Undergraduate ",
   email: "imashidiss@gmail.com",
   // Updated Links
-  github: "https://github.com/ImashiDiss", 
+  github: "https://github.com/ImashiDiss",
   linkedin: "https://www.linkedin.com/in/imashi-dissanayake-bb3b07339/",
   phone: "94775266672",
   about: "I am Imashi Dissanayake, a motivated undergraduate pursuing a BSc (Hons) in Information Technology, specializing in Data Science, with a GPA of 3.4 at SLIIT. I am passionate about transforming data into actionable insights and have hands-on experience in data analytics, business analytics, visualization, and reporting using tools like Python, SQL, Tableau, Power BI, and Excel.",
@@ -27,7 +27,7 @@ export const skills = [
     icon: <Server className="w-6 h-6" />,
     items: ["AWS", "Azure", "Docker", "Kubernetes", "Git", "Hadoop/Spark"]
   },
- 
+
 ];
 
 export const projects = [
@@ -37,7 +37,7 @@ export const projects = [
     description: "Full-stack AI system predicting global fashion trends using social media data, OpenAI GPT-4o, and Google Gemini APIs.",
     tags: ["FastAPI", "React", "PostgreSQL", "GenAI"],
     // Add your actual repo link here
-    github: "https://github.com/ImashiDiss/fashion-backend.git", 
+    github: "https://github.com/ImashiDiss/fashion-backend.git",
   },
   {
     id: 2,
@@ -46,15 +46,21 @@ export const projects = [
     tags: ["Python", "Machine Learning", "LightGBM", "Data Engineering"],
     github: " https://github.com/ImashiDiss/fdm_mini_project_2025",
   },
-  
+
   {
     id: 3,
     title: "Supermarket Aisle Navigation System",
     description: "MERN stack inventory management dashboard allowing managers to track product data efficiently.",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     github: "https://github.com/ImashiDiss/fashion-backend.git",
+  },
+  {
+    id: 4,
+    title: "Hotel Bookings Dashboard",
+    description: "Interactive Power BI dashboard for analyzing hotel booking trends, cancellations, and revenue metrics.",
+    tags: ["Power BI", "Data Visualization", "DAX"],
+    github: "https://github.com/ImashiDiss/Hotel-Bookings-Dashboard-with-Power-BI.git",
   }
-    
 ];
 
 export const certifications = [
@@ -83,5 +89,5 @@ export const certifications = [
     issuer: "IEEEXtreme Hackathon 2025",
     type: "Achievement"
   }
-  
+
 ];
